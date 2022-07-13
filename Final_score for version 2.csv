@@ -1,0 +1,37 @@
+Model Name,Accuracy score train,Precision_score train,Recall_Score train,Roc_AUC_Score train,F1-Score Train,Accuracy score test,Precision_score test,Recall_Score test,Roc_AUC_Score test,F1-Score test
+LogisticRegression(random_state=10),0.622457051,0.590131317,0.222750713,0.558698916,0.323422507,0.621172685,0.583258326,0.227102804,0.5583052,0.326914992
+DecisionTreeClassifier(random_state=10),0.999979717,1,0.999949932,0.999974966,0.999974966,0.543940183,0.440160018,0.462733645,0.530984991,0.451164645
+"DecisionTreeClassifier(criterion='entropy', max_depth=4, max_features='log2',
+                       max_leaf_nodes=9, random_state=10)",0.619110399,0.593632371,0.189505833,0.550583124,0.287297431,0.617623397,0.583449235,0.196028037,0.550364667,0.293459251
+RandomForestClassifier(random_state=10),0.999979717,0.999949935,1,0.999982953,0.999974967,0.622829019,0.559692432,0.323130841,0.575017016,0.409717079
+"RandomForestClassifier(criterion='entropy', max_depth=10, max_leaf_nodes=100,
+                       min_samples_leaf=50, min_samples_split=50,
+                       n_estimators=50, random_state=10)",0.63562055,0.642249929,0.226956391,0.570433531,0.335392697,0.626614926,0.60682398,0.222313084,0.562115097,0.325410397
+"AdaBoostClassifier(n_estimators=40, random_state=10)",0.628379612,0.591366906,0.26751114,0.5708166,0.368381136,0.627939993,0.588713777,0.270560748,0.570925907,0.370737954
+"GradientBoostingClassifier(max_depth=10, n_estimators=150, random_state=10)",0.889134535,0.948494404,0.76803685,0.869817948,0.848779948,0.61975297,0.544273908,0.376985981,0.581023418,0.445441369
+"XGBClassifier(base_score=0.5, booster='gbtree', callbacks=None,
+              colsample_bylevel=1, colsample_bynode=1, colsample_bytree=1,
+              early_stopping_rounds=None, enable_categorical=False,
+              eval_metric=None, gamma=0, gpu_id=-1, grow_policy='depthwise',
+              importance_type=None, interaction_constraints='',
+              learning_rate=0.2, max_bin=256, max_cat_to_onehot=4,
+              max_delta_step=0, max_depth=4, max_leaves=0, min_child_weight=1,
+              missing=nan, monotone_constraints='()', n_estimators=100,
+              n_jobs=0, num_parallel_tree=1, predictor='auto', random_state=0,
+              reg_alpha=0, reg_lambda=1, ...)",0.6584792,0.649299933,0.34131077,0.607886888,0.447427146,0.633524206,0.58994709,0.312616822,0.582328616,0.408674404
+GradientBoostingClassifier(),0.638155893,0.626768097,0.264006409,0.578474394,0.371521172,0.631394633,0.60455655,0.260397196,0.572207985,0.364007512
+"GradientBoostingClassifier(max_depth=9, max_features=16, min_samples_leaf=30,
+                           min_samples_split=600, n_estimators=80,
+                           random_state=10, subsample=0.8)",0.676348295,0.679285714,0.380914234,0.629222886,0.488114715,0.632908996,0.582903159,0.32978972,0.584551212,0.421248974
+"GradientBoostingClassifier(max_depth=9, max_features=16, min_samples_leaf=30,
+                           min_samples_split=600, n_estimators=80,
+                           random_state=10, subsample=0.8)",0.676348295,0.679285714,0.380914234,0.629222886,0.488114715,0.632908996,0.582903159,0.32978972,0.584551212,0.421248974
+"GradientBoostingClassifier(learning_rate=0.05, max_depth=9, max_features=16,
+                           min_samples_leaf=30, min_samples_split=600,
+                           n_estimators=140, random_state=10, subsample=0.8)",0.670608279,0.673257217,0.363140239,0.621563301,0.47180121,0.632151815,0.584243203,0.318808411,0.582162936,0.412516061
+"GradientBoostingClassifier(learning_rate=0.01, max_depth=9, max_features=16,
+                           min_samples_leaf=3, min_samples_split=60,
+                           n_estimators=700, random_state=10, subsample=0.8)",0.724864613,0.786685755,0.440194262,0.679456149,0.564512504,0.632719701,0.586006459,0.317990654,0.582509765,0.41226808
+"GradientBoostingClassifier(learning_rate=0.005, max_depth=12, max_features=16,
+                           min_samples_leaf=70, min_samples_split=800,
+                           n_estimators=1400, random_state=10, subsample=0.8)",0.67949212,0.683955191,0.388224103,0.633031247,0.495305014,0.634044768,0.584681548,0.333528037,0.586102178,0.424756379
