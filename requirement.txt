@@ -1,3 +1,4 @@
+joblib @ file:///tmp/build/80754af9/joblib_1635411271373/work
 joblib == 1.1.0
 lightgbm==3.3.2
 numpy ==1.21.5
