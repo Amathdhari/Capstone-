@@ -1,1 +1,10 @@
+pip install pandas 
+pip install numpy 
+pip install joblib
+pip install streamlit 
+pip install sklearn
+pip install pipeline
+pip install lightgbm
+
+
 
