@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 #import matplotlib.pyplot as plt
 #import seaborn as sns
-#import joblib
+import joblib
 import streamlit as st
 from sklearn.pipeline import Pipeline
 
@@ -12,8 +12,8 @@ from sklearn.compose import ColumnTransformer
 from lightgbm import LGBMClassifier
 
 
-#with open("Lightgbmmodel.pkl","rb") as f:
- #   model=joblib.load("Lightgbmmodel.pkl")
+with open("Lightgbmmodel.pkl","rb") as f:
+    model=joblib.load("Lightgbmmodel.pkl")
 
     
 def main():
